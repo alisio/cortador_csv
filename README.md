@@ -10,7 +10,7 @@ Uso em terminal bash para divisao de um arquivo em 2000 linhas (default):
 cortador_csv <arquivo.csv> [num_de_linhas]
 ```
 
-Uso em container docker para divisao de um arquivo em 1000 linhas:
+Uso em ambientes sem bash, através de container docker, para divisao de um arquivo em 1000 linhas:
 ```sh
 docker run --rm -v ${PWD}:/app --workdir /app ubuntu ./cortador_csv.sh arquivo.csv 1000
 ```
