@@ -16,10 +16,12 @@ docker run --rm -v ${PWD}:/app --workdir /app ubuntu ./cortador_csv.sh arquivo.c
 ```
 
 saída:
+```
   arquivo_split_aa.csv
   arquivo_split_ab.csv
   arquivo_split_ac.csv
   ...
+```
   
 ## Limitacoes
 Testado no MacOS BigSur e Ubuntu 20.04
