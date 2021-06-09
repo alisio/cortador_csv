@@ -1,7 +1,7 @@
 # Cortador CSV 
 ## Overview
 
-Shell script p/divisao de arquivos CSV e insercao dos cabecalhos nos arquivos divididos.
+Shell script p/divisao de arquivos CSV baseado na ferramenta `split`. Além da divisão, o Cortador CSV adiciona a extensão do arquivo original e insere o cabeçalho do arquivo original nos arquivos divididos.
 
 ## Uso
 
